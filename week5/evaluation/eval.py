@@ -10,7 +10,9 @@ from implementation.answer import answer_question, fetch_context
 
 load_dotenv(override=True)
 
-MODEL = "gpt-4.1-nano"
+#MODEL = "gpt-4.1-nano"
+MODEL = "gemma3.2:1b"
+
 db_name = "vector_db"
 
 

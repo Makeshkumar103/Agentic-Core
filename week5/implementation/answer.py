@@ -10,11 +10,13 @@ from dotenv import load_dotenv
 
 load_dotenv(override=True)
 
-MODEL = "gpt-4.1-nano"
+#MODEL = "gpt-4.1-nano"
+MODEL = "gemma3.2:1b"
+
 DB_NAME = str(Path(__file__).parent.parent / "vector_db")
 
-# embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+#embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 RETRIEVAL_K = 10
 
 SYSTEM_PROMPT = """
@@ -28,7 +30,13 @@ Context:
 
 vectorstore = Chroma(persist_directory=DB_NAME, embedding_function=embeddings)
 retriever = vectorstore.as_retriever()
-llm = ChatOpenAI(temperature=0, model_name=MODEL)
+#llm = ChatOpenAI(temperature=0, model_name=MODEL)
+llm = ChatOpenAI(
+    temperature=0,
+    model_name=MODEL,
+    base_url="http://localhost:11434/v1",
+    api_key="ollama",
+)
 
 
 def fetch_context(question: str) -> list[Document]:
