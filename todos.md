@@ -22,4 +22,8 @@ day5	- multimodel image, text, audio generation at the same project
 
 extra.ipynb has more openrouter model make use of it.
 
-work - revealer.py, scraper.py, week2 Exercise
+work - scraper.py, week2 Exercise
+___________________________________________________________
+Week3:
+    - day5
+    
