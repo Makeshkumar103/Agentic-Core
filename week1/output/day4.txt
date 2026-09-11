@@ -1,0 +1,12 @@
+messages = [
+    {"role": "system", "content": "You are a helpful assistant"},
+    {"role": "user", "content": "Hi! I'm Mk!"}
+    ]
+
+openrouter: gpt-oss-20b
+'Hello, Ed! 👋 How can I help you today?'
+
+llama3.2:3b
+"Hello Mk! It's great to meet you. Is there something I can help you with today, or would you like to chat?"
+________________________________________________________________________________________________
+

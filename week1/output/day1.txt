@@ -1,0 +1,25 @@
+message = "Hello, GPT! This is my first ever message to you! Hi!"
+
+gpt-4.1-mini
+Hello there! 🌟 It’s great to meet you—welcome aboard! How can I help you today?
+
+llama3.2:3b
+"Hello! Welcome to our conversation! I'm excited to meet you and chat with you. This is an honor to be your first message to me! How are you doing today? Is there something specific you'd like to talk about or ask about? I'm all ears (or rather, all text)."
+________________________________________________________________________________________________
+
+messages = [
+    {"role": "system", "content": "You are a helpful assistant"},
+    {"role": "user", "content": "What is 2 + 2?"}
+]
+
+
+2 + 2 equals **4**.
+
+2 + 2 = 4.
+________________________________________________________________________________________________
+summarize("https://edwarddonner.com")
+
+'# Edward Donner’s *“I’ve Got an LLM for Every Occasion”* Site\n\n> *“Hi there. I’m Ed. I like writing code, hacking LLMs, and producing electronic music that probably shouldn’t be played in public.”*\n\n- **The Man in the Middle:** Ex‑JPMorgan MD turned serial AI founder (Nebula.io + untapt, the latter bought in 2021).  \n- **Udemy King:** 900k students, 194 countries, and courses that “drone on” for hours about LLMs.  \n- **Curriculum & Avatar:** A “digital avatar” that probably can answer “What’s the meaning of life?” but also a full curriculum for those who love to over‑learn.  \n- **LLM Show‑down:** *Outsmart*—an arena where LLMs battle like diplomats in a high‑stakes game of “who can be more devious.”  \n\n## Recent “News” (Because He Can’t Resist Announcing Things)\n\n| Date | Announcement |\n|------|--------------|\n| Feb\u202f17\u202f2026 | “AI Coder: Vibe Coder to Agentic Engineer” – Resources for turning code into *some sort of agent.* |\n| Jan\u202f4\u202f2026 | “AI Builder with n8n” – Build agents and voice agents without leaving your keyboard. |\n| Sep\u202f15\u202f2025 | “AI Engineering MLOps Track” – Deploy AI to production (and hope the servers survive the hype). |\n| May\u202f28\u202f2025 | “Which order to take the AI courses?” – Because apparently people get lost in a maze of tutorials. |\n\n> **Pro Tip:** If you’re already a student, thank him—he’s “super grateful.” If you’re just a curious soul, hit “Get in touch” (ed at edwarddonner dot com) and maybe get an unsolicited LLM lecture.'
+
+
+'**Summary**\n\nThis website appears to be the personal blog of Edward Donner, a tech entrepreneur and AI expert. He shares his enthusiasm for Artificial Intelligence, Machine Learning, and other related topics, including his experiences as a co-founder and CTO of an AI startup.\n\n**News/A announcements**\n\nEd has shared the following news and announcements:\n\n* Nebula.io was acquired in 2021.\n* His Udemy courses on AI topics have:\n\n  • 900,000 enrollments across 194 countries.\n  • Became best-selling, top-rated courses'
