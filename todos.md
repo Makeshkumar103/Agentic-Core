@@ -13,8 +13,9 @@ ___________________________________________________________
 Week2:
 
 in VS folder
-        - deepseek vs qwen
-        - deepseek vs open router
+        - llama vs minimax
+        - deepseek vs qwen vs openai
+        - gemini vs openai vs claude
 day5    - redo
 	- community contributers three philosophers.ipynb
 	- same for ollma models add gradio and push on steamlite
@@ -26,4 +27,6 @@ work - scraper.py, week2 Exercise
 ___________________________________________________________
 Week3:
     - day5
+    - assistant interviewer in community contribution
+    
     
