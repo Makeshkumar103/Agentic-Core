@@ -30,11 +30,13 @@ Run all cells in Jupyter Notebook `job_finder_ai.ipynb`
 
 ## 📊 Sample Output
 
-| Title | Organization | Location | URL |
-|-------|--------------|----------|-----|
-| Senior Software Developer in Test | Q2 | Bengaluru, Karnataka, India | [🔗 Apply](https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Bangalore-India/Senior-Software-Developer-in-Test_REQ-11519) |
-| Software Development Engineer II (Backend) | AppsForBharat | Bengaluru, Karnataka, India | [🔗 Apply](https://careers.kula.ai/appsforbharat/jobs/19566) |
-| Software Development Engineer II, Amazon MGM Studios | Amazon | Bengaluru, Karnataka, India | [🔗 Apply](https://www.amazon.jobs/en/jobs/3133217) |
+
+| Title                                                | Organization  | Location                    | URL                                                                                                                     |
+| ---------------------------------------------------- | ------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Senior Software Developer in Test                    | Q2            | Bengaluru, Karnataka, India | [🔗 Apply](https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Bangalore-India/Senior-Software-Developer-in-Test_REQ-11519) |
+| Software Development Engineer II (Backend)           | AppsForBharat | Bengaluru, Karnataka, India | [🔗 Apply](https://careers.kula.ai/appsforbharat/jobs/19566)                                                            |
+| Software Development Engineer II, Amazon MGM Studios | Amazon        | Bengaluru, Karnataka, India | [🔗 Apply](https://www.amazon.jobs/en/jobs/3133217)                                                                     |
+
 
 **Generated: Nov 29, 2025** - 9 Senior Backend/Java roles found
 
@@ -42,7 +44,7 @@ Run all cells in Jupyter Notebook `job_finder_ai.ipynb`
 
 - **AI**: OpenAI GPT for resume parsing
 - **Data**: Pandas, JSON processing
-- **APIs**: Rapid API for job boards: https://rapidapi.com/fantastic-jobs-fantastic-jobs-default/api/active-jobs-db/playground/endpoint_cb22369f-a718-452c-b4f2-32591bf058f8
+- **APIs**: Rapid API for job boards: [https://rapidapi.com/fantastic-jobs-fantastic-jobs-default/api/active-jobs-db/playground/endpoint_cb22369f-a718-452c-b4f2-32591bf058f8](https://rapidapi.com/fantastic-jobs-fantastic-jobs-default/api/active-jobs-db/playground/endpoint_cb22369f-a718-452c-b4f2-32591bf058f8)
 - **Export**: CSV (Excel-compatible)
 - **IDE**: PyCharm Professional, Jupyter Notebooks
 
@@ -56,7 +58,6 @@ JobFinderAI/
 ├── job_listings_bengaluru.csv # ✅ OUTPUT
 ├── README.md # This file
 └── .env # OPENAI_API_KEY
-
 
 ## 🔮 Next Steps
 

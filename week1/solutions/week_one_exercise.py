@@ -7,8 +7,11 @@ import os
 from youtube_transcript_api import YouTubeTranscriptApi
 
 load_dotenv(override=True)
-api_key = os.getenv('OPENAI_API_KEY')
-client = OpenAI()
+
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key = os.getenv('OPENROUTER_API_KEY')
+)
 api = YouTubeTranscriptApi()
 video_id = "y8AXgTBdY5E"
 transcript = (
@@ -19,7 +22,7 @@ transcript = (
 text = " ".join([t.text for t in transcript])
 
 response = client.chat.completions.create(
-    model="gpt-5-mini",
+    model="gpt-4O-mini",
     messages=[
         {"role": "system", "content": "i want you think like pure RCB fan"},
         {"role": "user", "content": "create the summary in english in for this news" + text}
